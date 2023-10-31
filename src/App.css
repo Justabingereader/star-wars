@@ -1,0 +1,130 @@
+@media(min-width:751px){
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    width: 100vw;
+    height: auto;
+}
+.dropdown{
+    display: none;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 0;
+}
+
+ul a {
+    color: #80ddff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.home {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15vw;
+    font-size: 2vw;
+}
+
+.film a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.film {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.people a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.people {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.planets a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.planets {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.species a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.species {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.starships a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.starships {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.vehicles a:hover {
+    color: rgb(255, 243, 69);
+}
+
+.vehicles {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+}
+@media(max-width:750px){
+    .dropdown {
+        display: block;
+        position: fixed;
+        top: 0;
+        margin-left: -15vw;
+        padding-left: 80vw;
+        padding-bottom: 2.5vh;
+        background-color: rgb(0,0,0);
+        width: 100vw;
+    }
+    .home a{
+        display: none;
+    }
+    .film a{
+        display: none;
+    }
+    .people a{
+        display: none;
+    }
+    .planets a{
+        display: none;
+    }
+    .species a {
+        display: none;
+    }
+    .starships a {
+        display: none;
+    }
+    .vehicles a {
+        display: none;
+    }
+}

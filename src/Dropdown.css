@@ -1,0 +1,149 @@
+@media(max-width:750px){
+.navigate {
+    background-color: var(--body_background);
+    position:relative;
+    top: 0;
+    left: 0;
+    margin-left: -80vw;
+    margin-bottom: 5vw;
+    width: 100vw;
+    height: 200vh;
+}
+.toggle {
+    width: fit-content;
+    height: fit-content;
+    margin:1rem 0 auto;
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: burlywood;
+    color: white;
+}
+
+
+.hide {
+    display: none;
+}
+.toggle:hover {
+    cursor: pointer;
+    width: fit-content;
+    height:fit-content;
+    background-color: burlywood;
+}
+
+.body {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    padding-top: 10vh;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.body:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.film  {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.film:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.people {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.people:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.planets {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.planets:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.species {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.species:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.starships {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.starships:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.vehicles {
+    display: block;
+    font-size: 4vw;
+    color: rgb(255, 243, 69);
+    text-decoration: none;
+    margin-left: 30vw;
+    font-size: 4vh;
+    padding-bottom: 5vh;
+}
+
+.vehicles:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.symbol {
+    font-size: 2vh;
+}
+}

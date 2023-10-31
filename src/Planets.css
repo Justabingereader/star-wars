@@ -1,0 +1,80 @@
+@media(min-width:751px){
+.content-head {
+    background-color: rgb(30,30,30);
+    padding-top: 7vh;
+    width: 100vw;
+    height: fit-content;
+}
+
+h1 {
+    background-color: rgb(50,50,50);
+    padding: 5vh 0;
+    color: rgb(255, 243, 69);
+    text-align: center;
+    font-size: 3vw;
+}
+
+.content-body {
+    display: flex;
+    flex-wrap: wrap; /* Optional: Wrap elements to the next line if they don't fit horizontally */
+    justify-content: space-between;
+}
+
+.planet-container {
+    display: flex;
+    flex-direction: column; /* Display each film as a flex row */
+    text-align: center;
+    width: 25vw;
+    height: max-content;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    padding: 3vh 3vw;
+    background-color: #f0f0f0; /* Add a background color or styling as desired */
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+}
+@media(max-width:750px){
+    #content-header {
+        background-color: rgb(30,30,30);
+        width: 100vw;
+        height: fit-content;
+        margin-top: -30vh;
+        margin-left: -2vw;
+    }
+    
+    .closer {
+        background-color: rgb(50,50,50);
+        padding: 6vh 0;
+        color: rgb(255, 243, 69);
+        text-align: center;
+        font-size: 6vw;
+        margin-top: -5vh;
+        margin-left: -5vw;
+    }
+    #content-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+    
+    .planet-container {
+        display: flex;
+        flex-direction: column; /* Display each film as a flex row */
+        text-align: center;
+        width: 50vw;
+        font-size: 4vw;
+        height: max-content;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+        padding: 3vh 3vw;
+        background-color: #f0f0f0; /* Add a background color or styling as desired */
+        border: 1px solid #ccc; /* Add a border for separation */
+        border-radius: 5px; /* Optional: Add rounded corners */
+        color: black;
+        font-weight: 500;
+      }
+}
