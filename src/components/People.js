@@ -36,7 +36,7 @@ function People(){
     
       return (
           <div className="content-head" id="content-header">
-            <h1 className="closer">Star Wars Characters</h1>
+            <h1 className="closer" id="cover">Star Wars Characters</h1>
             <div className="content-body" id="content-container">
              {renderedImages}
              </div>

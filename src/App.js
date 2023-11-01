@@ -1,4 +1,5 @@
 import { BrowserRouter,Routes, Route, Link } from "react-router-dom";
+import { useState } from "react";
 import Films from "./components/Films";
 import Planets from "./components/Planets";
 import Starships from './components/Starships';
@@ -10,6 +11,11 @@ import './App.css';
 import Dropdown from "./components/Dropdown";
 
 function App(){
+    const [lastClicked, setLastclicked] = useState(null);
+
+    const handleLinClick = (link) => {
+        setLastclicked(link);
+    };
     
     return (
     
@@ -21,25 +27,46 @@ function App(){
             <Dropdown/>
           </div>
           <li className="home">
-            <Link to="/" style={{color: "rgb(255, 243, 69)"}}>Home</Link>
+            <Link to="/"
+            className={lastClicked === '/' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('/')}
+            >Home</Link>
           </li>
           <li className="film">
-            <Link to="/Films">Films</Link>
+            <Link to="/Films"
+            className={lastClicked === 'Films' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('Films')}
+            >Films</Link>
           </li>
           <li className="people">
-            <Link to="/People">People</Link>
+            <Link to="/People"
+            className={lastClicked === 'People' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('People')}
+            >People</Link>
           </li>
           <li  className="planets">
-            <Link to="/Planets">Planets</Link>
+            <Link to="/Planets"
+            className={lastClicked === 'Planets' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('Planets')}
+            >Planets</Link>
           </li>
           <li className="species">
-            <Link to="/Species">Species</Link>
+            <Link to="/Species"
+            className={lastClicked === 'Species' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('Species')}
+            >Species</Link>
           </li>
           <li className="starships">
-            <Link to="/Starships">Starships</Link>
+            <Link to="/Starships"
+            className={lastClicked === 'Starships' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('Starships')}
+            >Starships</Link>
           </li>
           <li className="vehicles">
-            <Link to="/Vehicles">Vehicles</Link>
+            <Link to="/Vehicles"
+            className={lastClicked === 'Vehicles' ? 'highlighted' : ''}
+            onClick={() => handleLinClick('Vehicles')}
+            >Vehicles</Link>
           </li>
             </ul>
         </nav>

@@ -4,7 +4,7 @@ import White from '../white-soldiers.jpg';
 function Body(){
     return (
         <div className='content-header'> 
-        <h1>Star Wars: An Infographic</h1>
+        <h1 id='header'>Star Wars: An Infographic</h1>
         <div className='wrapper'>
             <div className='first'>
                 <p>Star Wars, one of the most remarkable creations of humanity.

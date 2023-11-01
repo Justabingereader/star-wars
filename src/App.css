@@ -94,6 +94,11 @@ ul a {
     margin-left: 5vw;
     font-size: 2vw;
 }
+
+.highlighted {
+    color: green;
+}
+
 }
 @media(max-width:750px){
     .dropdown {
