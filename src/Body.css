@@ -71,7 +71,7 @@ h1 {
 .copy {
     display: block;
     font-family: "Courier New",Courier,monospace;
-    color: #fff;
+    color: rgb(255, 243, 69);
     text-align: center;
     margin-top: 10vh;
     padding-bottom: 10vh;
